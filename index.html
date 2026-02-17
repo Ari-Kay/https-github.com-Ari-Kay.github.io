@@ -231,14 +231,14 @@
         }
 
         /* Projects Section */
-        .projects-grid {
+        .hobbies-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 1rem;
             margin-top: 2rem;
         }
 
-        .project-category-card {
+        .hobbies-category-card {
             background: rgba(0, 0, 0, 0.7);
             border: 1px solid #7c3aed;
             border-radius: 15px;
@@ -250,7 +250,7 @@
             overflow: hidden;
         }
 
-        .project-category-card:hover {
+        .hobbies-category-card:hover {
             transform: translateY(-10px) scale(1.02);
             box-shadow: 0 20px 40px rgba(168, 85, 247, 0.2);
             border-color: #a855f7;
@@ -263,17 +263,17 @@
             transition: filter 0.3s ease;
         }
 
-        .project-category-card:hover .category-icon {
+        .hobbies-category-card:hover .category-icon {
             filter: grayscale(0%);
         }
 
-        .project-category-card h3 {
+        .hobbies-category-card h3 {
             color: #a855f7;
             margin-bottom: 0.5rem;
             font-size: 1.3rem;
         }
 
-        .project-category-card p {
+        .hobbies-category-card p {
             margin-bottom: 1rem;
             color: #cccccc;
         }
@@ -741,65 +741,34 @@
     </section>
 
 <!-- Projects Section -->
-<section id="projects" class="section">
+<section id="hobbies" class="section">
     <div class="container">
-        <h2 class="section-title">All My Data Projects</h2>
-        <div class="projects-grid">
+        <h2 class="section-title">My Hobbies</h2>
+        <div class="hobbies-grid">
 
-            <div class="project-category-card">
-                <div class="category-icon">🐍</div>
-                <h3>Python & R</h3>
-                <p>Advanced Analytics</p>
-                <a href="python.html" class="category-count-link">
-                    <div class="category-count">4 Projects</div>
-                </a>
+            <div class="hobbies-category-card">
+                <div class="category-icon">📽️</div>
+                <h3>Movies</h3>
+                <p>Exploring diverse global topics through movies</p>
             </div>
 
-            <div class="project-category-card">
-                <div class="category-icon">🗄️</div>
-                <h3>SQL & NoSQL</h3>
-                <p>Database Management</p>
-                <a href="sql.html" class="category-count-link">
-                    <div class="category-count">4 Projects</div>
-                </a>
+            <div class="hobbies-category-card">
+                <div class="category-icon">📚</div>
+                <h3>Reading</h3>
+                <p>Reading and Self studying various topics</p>
             </div>
 
-            <div class="project-category-card">
-                <div class="category-icon">📊</div>
-                <h3>Tableau & Power BI</h3>
-                <p>Data Visualization</p>
-                <a href="visualization.html" class="category-count-link">
-                    <div class="category-count">6 Projects</div>
-                </a>
+            <div class="hobbies-category-card">
+                <div class="category-icon">🎵</div>
+                <h3>Music</h3>
+                <p>Learning to play violin, guitar, and Keyboard</p>
             </div>
 
-            <div class="project-category-card">
+            <div class="hobbies-category-card">
                 <div class="category-icon">🤖</div>
-                <h3>Machine Learning</h3>
-                <p>Predictive Modeling</p>
-                <a href="ml.html" class="category-count-link">
-                    <div class="category-count">4 Projects</div>
-                </a>
+                <h3>Robotics</h3>
+                <p>Arduino Projects</p>
             </div>
-
-            <div class="project-category-card">
-                <div class="category-icon">📈</div>
-                <h3>Excel & Google Sheets</h3>
-                <p>Business Intelligence</p>
-                <a href="excel.html" class="category-count-link">
-                    <div class="category-count">3 Projects</div>
-                </a>
-            </div>
-
-            <div class="project-category-card">
-                <div class="category-icon">📉</div>
-                <h3>Statistical Analysis</h3>
-                <p>Research & Insights</p>
-                <a href="stats.html" class="category-count-link">
-                    <div class="category-count">4 Projects</div>
-                </a>
-            </div>
-
         </div>
     </div>
 </section>
@@ -893,25 +862,25 @@
                     <h3 class="resume-section-title">Languages</h3>
                     <div class="languages-grid">
                         <div class="language-item">
+                            <div class="language-name">Sinhala</div>
+                            <div class="proficiency-bar">
+                                <div class="proficiency-fill" style="width: 100%;"></div>
+                            </div>
+                            <div class="proficiency-label">Native</div>
+                        </div>
+                        <div class="language-item">
                             <div class="language-name">English</div>
                             <div class="proficiency-bar">
                                 <div class="proficiency-fill" style="width: 100%;"></div>
                             </div>
-                            <div class="proficiency-label">Native</div>
+                            <div class="proficiency-label">Fluent</div>
                         </div>
                         <div class="language-item">
-                            <div class="language-name">Twi</div>
+                            <div class="language-name">Japanese</div>
                             <div class="proficiency-bar">
-                                <div class="proficiency-fill" style="width: 100%;"></div>
+                                <div class="proficiency-fill" style="width: 40%;"></div>
                             </div>
-                            <div class="proficiency-label">Native</div>
-                        </div>
-                        <div class="language-item">
-                            <div class="language-name">French</div>
-                            <div class="proficiency-bar">
-                                <div class="proficiency-fill" style="width: 70%;"></div>
-                            </div>
-                            <div class="proficiency-label">Advanced</div>
+                            <div class="proficiency-label">Conversational</div>
                         </div>
                     </div>
                 </div>
@@ -929,28 +898,21 @@
                         <span>📧</span>
                         <div>
                             <strong>Email</strong>
-                            <p>princilla@datainactionafrica.com</p>
+                            <p>kbpahanma.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <span>📍</span>
                         <div>
                             <strong>Location</strong>
-                            <p>Accra, Ghana</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span>💼</span>
-                        <div>
-                            <strong>LinkedIn</strong>
-                            <p>linkedin.com/in/princilla-koranteng</p>
+                            <p>Colombo, Sri Lanka.</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <span>🐙</span>
                         <div>
                             <strong>GitHub</strong>
-                            <p>github.com/princilla-koranteng</p>
+                            <p>github.com/ari-kay</p>
                         </div>
                     </div>
                 </div>
@@ -980,7 +942,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Princilla Abena Koranteng. All rights reserved.</p>
+            <p>&copy; 2025. All rights reserved.</p>
         </div>
     </footer>
 
@@ -1026,4 +988,5 @@
 </body>
 
 </html>
+
 
