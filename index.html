@@ -136,6 +136,25 @@
             color: #cccccc;
         }
 
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #7c3aed, #a855f7);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.3);
+        }
+        
         .hero-image {
             text-align: center;
         }
@@ -623,6 +642,7 @@
     <!-- Header -->
     <header class="header">
         <nav class="nav container">
+          <div class="logo">KBPM</div>
             <div class="menu-toggle" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
@@ -650,7 +670,7 @@
                 </div>
                 <div class="hero-image">
                     <div class="profile-image">
-                        <img src="profile.jpg" alt="Pahanma's Photo" />
+                        <img src="profile.png" alt="Pahanma's Photo" />
                     </div>
                 </div>
             </div>
@@ -961,6 +981,7 @@
 </body>
 
 </html>
+
 
 
 
